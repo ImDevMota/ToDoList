@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1><span id="listNameLabel"></span></h1>
+
+    <h2>New Task:</h2>
+    <form id="taskForm" method="POST">
+        <label for="taskName">name:</label>
+        <input type="text" id="taskName" placeholder="ex: Clean the room">
+        <label for="description">Description:</label>
+        <input type="text" id="description" placeholder="ex: Clean the windows well ">
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate">
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate">
+        <button type="submit">New Task</button>
+    </form>
+
+    <h2>Tasks:</h2>
+    <div id="tasksContainer"></div>
+</body>    
+
+<script src="https://js.pusher.com/8.4/pusher.min.js"></script>
+<script type="module" src="task.js"></script>
+</html>

@@ -6,10 +6,10 @@ export function getRedisInstance() {
 
     if(!instance) {
         instance = new Redis({
-            host: "redis-10811.c73.us-east-1-2.ec2.redns.redis-cloud.com", 
-            port: "10811", 
+            host: "redis-18793.c326.us-east-1-3.ec2.redns.redis-cloud.com", 
+            port: "18793", 
             username: "default",
-            password: "jNRap3QCQ4Oplsmb55mayM9L4HeClGwp"
+            password: "b3apvkAcosjtK6Kb9QbJVKYhkQCDpiZk"
         })
     
         instance.on("connect", () => console.log("Redis connected"))

@@ -1,11 +1,14 @@
 {
   "type": "module",
   "dependencies": {
+    "body": "^5.1.0",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "ioredis": "^5.4.1",
+    "parser": "^0.1.4",
     "pusher": "^5.2.0",
+    "pusher-js": "^8.4.0-rc2",
     "require": "^2.4.20"
   }
 }
